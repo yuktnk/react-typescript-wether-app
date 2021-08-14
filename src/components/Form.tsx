@@ -10,7 +10,7 @@ const Form = (props: FormPropsType) => {
   return (
     <form>
       <input type="text" name="city" placeholder="都市名" onChange={e => props.setCity(e.target.value)}/>
-      <button onClick={props.getWether}>Get Wether</button>
+      <button onSubmit={props.getWether}>Get Wether</button>
     </form>
   );
 }
