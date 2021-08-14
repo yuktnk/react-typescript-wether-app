@@ -1,3 +1,3 @@
-const Loading = () => <h3>Loading...</h3>
+const Loading = () => <div className="loading"></div>
 
 export default Loading;
