@@ -1,9 +1,3 @@
-const Title = () => {
-  return (
-    <div>
-      <h1>World Wether</h1>
-    </div>
-  )
-}
+const Title = () => <h1>World Wether</h1>
 
 export default Title
